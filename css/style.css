@@ -1,3 +1,44 @@
-header{
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,200&display=swap');
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 106, 255, 0.258);
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 5px;
+    width: 600px;
     
+}
+.item{
+    display: flex;
+}
+.item-cadastrar{
+    margin: 8px;
+    height: 25px;
+    padding: 5px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
